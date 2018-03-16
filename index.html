@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CrystalsCollector Game</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+<body>
+    <div class="container row fc clearfix">
+
+            <div class="col_l_16_of_16 col_m_12_of_12 col_s_10_of_10">
+                <h1 class="txc">CrystalsCollector</h1>
+            </div>
+
+            <div class="col_l_16_of_16 col_m_12_of_12 col_s_10_of_10 clearfix">
+                <div id="wins-losses">
+                    <p class="txc">Wins: <span id="wins"></span></p>
+                    <p class="txc">Losses: <span id="losses"></span></p>
+                </div>
+            </div>
+
+            <div class="col_l_16_of_16 col_m_12_of_12 col_s_10_of_10">
+                <div id="random-num">
+                    <p class="txc">Match Number: <span id="match-num"></span></p>
+                </div>
+            </div>
+
+            <div id="crystals" class="col_l_16_of_16 col_m_12_of_12 col_s_10_of_10 txc">
+            </div>
+
+            <div class="col_l_16_of_16 col_m_12_of_12 col_s_10_of_10">
+                <div id="total-score">
+                    <p class="txc">Your Total Score: <span id="score"></span></p>
+                </div>
+            </div>
+
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

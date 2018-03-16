@@ -1,0 +1,274 @@
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* ============================== */
+/* Common Code                    */
+/*================================*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-size: 0.875em;
+    color: #333;
+    background:#f4f4f4;
+  }
+
+  .red {
+      border: 1px solid red;
+  }
+
+/* ============================== */
+/* UI Code                        */
+/*================================*/
+h1 {
+    font-size: 3em !important;
+    color: #FF7FE9;
+    margin: 1em 0 0.3em 0px !important;
+}
+
+/* ============================== */
+/* Layout Code                    */
+/*================================*/
+header, main, #main, footer {
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+header {
+  background: #fff;
+}
+main, #main {
+  position: relative;
+  background: #fff;
+}
+.clearfix {
+  clear:left;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.container {
+  width:100%;
+  display: block;
+  max-width: 900px;
+}
+.row {
+  display: block;
+  float: left;
+  margin: 0;
+}
+div[class*="col_"] {
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+.col_s_1_of_10 {
+  width: 10%;
+}
+.col_s_2_of_10 {
+  width: 20%;
+}
+.col_s_3_of_10 {
+  width: 30%;
+}
+.col_s_4_of_10 {
+  width: 40%;
+}
+.col_s_5_of_10 {
+  width: 50%;
+}
+.col_s_6_of_10 {
+  width: 60%;
+}
+.col_s_7_of_10 {
+  width: 70%;
+}
+.col_s_8_of_10 {
+  width: 80%;
+}
+.col_s_9_of_10 {
+  width: 90%;
+}
+.col_s_10_of_10 {
+  width: 100%;
+}
+
+
+#random-num {
+    padding: 10px;
+}
+
+#random-num {
+    font-size: 200%;
+}
+
+#wins-losses {
+    padding: 10px;
+}
+
+#wins-losses p {
+    font-size: 1.2em;
+}
+
+#total-score {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#crystals {
+    
+}
+
+#crystals img {
+    border: 2px solid #dddddd;
+    width: 120px;
+    margin: 5px;
+}
+
+.fl {
+    float: left;
+  }
+
+.fc {
+    float: none !important;
+    margin: auto;
+}
+
+.txc {
+    text-align: center;
+}
+
+
+
+/* ============================== */
+/* Small Desktop Code             */
+/*================================*/
+@media (min-width:768px) {
+    /* ============================== */
+    /* Layout Code                    */
+    /*================================*/
+    .col_m_1_of_12 {
+      width: 8.33%;
+    }
+    .col_m_2_of_12 {
+      width: 16.66%;
+    }
+    .col_m_3_of_12 {
+      width: 25%;
+    }
+    .col_m_4_of_12 {
+      width: 33.33%;
+    }
+    .col_m_5_of_12 {
+      width: 41.66%;
+    }
+    .col_m_6_of_12 {
+      width: 50%;
+    }
+    .col_m_7_of_12 {
+      width: 58.33%;
+    }
+    .col_m_8_of_12 {
+      width: 66.66%;
+    }
+    .col_m_9_of_12 {
+      width: 75%;
+    }
+    .col_m_10_of_12 {
+      width: 83.33%;
+    }
+    .col_m_11_of_12 {
+      width: 91.66%;
+    }
+    .col_m_12_of_12 {
+      width: 100%;
+    }
+}
+
+
+/* ============================== */
+/* Medium Desktop Code            */
+/*================================*/
+@media only screen and (min-width: 1025px) {
+
+    /* ============================== */
+    /* Layout Code                    */
+    /*================================*/
+    .col_l_1_of_16 {
+      width:6.25%;
+    }
+    .col_l_2_of_16 {
+      width:12.5%;
+    }
+    .col_l_3_of_16 {
+      width: 18.75%;
+    }
+    .col_l_4_of_16 {
+      width: 25%;
+    }
+    .col_l_5_of_16 {
+      width: 31.25%;
+    }
+    .col_l_6_of_16 {
+      width: 37.5%;
+    }
+    .col_l_7_of_16 {
+      width: 43.75%;
+    }
+    .col_l_8_of_16 {
+      width: 50%;
+    }
+    .col_l_9_of_16 {
+      width: 56.25%;
+    }
+    .col_l_10_of_16 {
+      width: 62.5%;
+    }
+    .col_l_11_of_16 {
+      width: 68.75%;
+    }
+    .col_l_12_of_16 {
+      width: 75%;
+    }
+    .col_l_13_of_16 {
+      width: 81.25%;
+    }
+    .col_l_14_of_16 {
+      width: 87.5%;
+    }
+    .col_l_15_of_16 {
+      width: 93.75%;
+    }
+    .col_l_16_of_16 {
+      width: 100%;
+    }
+}
