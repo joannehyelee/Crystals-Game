@@ -34,6 +34,7 @@ $(document).ready(function(){
     
             if ($totalScore === $matchNum) {
                 alert ("YAY you won!");
+                $('.crystal-button').remove();
                 $wins++;
                 $("#wins").text($wins);
                 startGame();
