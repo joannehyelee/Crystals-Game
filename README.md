@@ -1,1 +1,3 @@
-# week-4-game
+# Crystals-Game
+
+Crystals Game built using jQuery library.
